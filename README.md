@@ -1,1 +1,1 @@
-# vr-landing-starter
+# VR-React-App
