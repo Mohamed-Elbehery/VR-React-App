@@ -8,14 +8,14 @@ const Explore = () => {
           <h3
             className="text-3xl font-semibold mb-8"
             data-aos="fade-right"
-            data-aos-offset="1100"
+            data-aos-offset="1000"
           >
             Explore product in new way
           </h3>
           <p
             className="max-w-xs mb-12"
             data-aos="fade-right"
-            data-aos-offset="1100"
+            data-aos-offset="1000"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
             dolores dicta saepe vero enim dolorem? Dolorum optio nihil molestiae
@@ -25,7 +25,7 @@ const Explore = () => {
           <form
             className="flex flex-col w-full space-y-4 gap-x-4 lg:flex-row lg:space-y-0"
             data-aos="fade-up"
-            data-aos-offset="850"
+            data-aos-offset="750"
           >
             <input
               className="bg-gradient-to-t from-[#341D38] to-[#271223] h-12 px-4 outline-none rounded-md"
