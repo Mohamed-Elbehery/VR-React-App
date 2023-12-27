@@ -23,4 +23,8 @@
   .btn {
     @apply font-medium h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center cursor-pointer;
   }
+  .exp-first-img {
+    @apply w-full rounded-xl;
+    transform: rotateY(180deg);
+  }
 }

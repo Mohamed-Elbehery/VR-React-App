@@ -21,6 +21,7 @@ const Header = ({ setNavMobile }) => {
           {/* Logo */}
           <a href="#">
             <img className="h-[30px]" src={Logo} alt="logo" />
+            {/* <h1 className="text-4xl">اناقة</h1> */}
           </a>
           {/* Nav */}
           <Nav />

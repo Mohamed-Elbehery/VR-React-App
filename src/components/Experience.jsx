@@ -1,8 +1,12 @@
 // import images
-import Img1 from "../assets/img/exp-img1.png";
-import Img2 from "../assets/img/exp-img2.png";
+import Img from "../assets/img/perfume4.png";
+import Img2 from "../assets/img/perfume3.png";
 
 const Experience = () => {
+  // background: #c02fe3;
+  // height: auto;
+  // border-radius: 50%;
+
   return (
     <section className="mb-12 lg:mb-24">
       <div className="container mx-auto">
@@ -10,14 +14,22 @@ const Experience = () => {
           <div className="flex-1 flex space-x-6 items-center lg:space-x-12">
             {/* Images */}
             <div
-              className="self-start"
+              className="self-start w-[250px] h-[auto] rounded-full bg-[#e40e8e] bg-opacity-50"
               data-aos="fade-down"
               data-aos-offset="400"
             >
-              <img src={Img1} alt="experience-img-1" />
+              <img className="exp-first-img" src={Img} alt="experience-img-1" />
             </div>
-            <div className="self-end" data-aos="fade-up">
-              <img src={Img2} alt="experience-img-2" />
+            <div
+              className="w-[250px] h-[auto] rounded-full bg-[#e40e8e] bg-opacity-50"
+              data-aos="fade-up"
+              data-aos-offset="400"
+            >
+              <img
+                className="w-full rounded-xl"
+                src={Img2}
+                alt="experience-img-2"
+              />
             </div>
           </div>
           {/* Text */}
